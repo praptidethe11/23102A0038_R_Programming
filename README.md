@@ -6,8 +6,6 @@ Faculty     : Prof. Sanjeev Dwivedi
 
 GitHub Repository Link: https://github.com/praptidethe11/23102A0038_R
 
-Interpretation (100-150 words):
-
 The Beijing air-quality station dataset initially contained missing values 
 across several pollutant and weather variables such as PM2.5, PM10, SO2, 
 NO2, TEMP and WSPM, along with some missing entries in the categorical 
