@@ -1,3 +1,5 @@
+print("Hello, R!")
+
 # variables
 
 x <- 10       # Numeric variable
