@@ -1,4 +1,4 @@
-# R Programming Practical
+# R Programming Practicals
 
 **Name:** Prapti Vivek Dethe  
 **Course:** R Programming  
