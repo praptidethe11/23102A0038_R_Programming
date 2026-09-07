@@ -1,0 +1,9 @@
+"age","workclass","income"
+25,"Private",50000
+37.5,"Unknown",45000
+37.5,"Private",60000
+35,NA,55000
+60,"Private",NA
+37.5,"Unknown",40000
+30,"Private",62000
+37.5,"Govt",48000
