@@ -1,0 +1,11 @@
+step,removed,remaining
+Raw (sampled) rows,0,600000
+Missing values (NA),57119,542881
+Duplicate rows,0,542881
+Pickup outside study period,0,542881
+"Trip duration not in [1, 180] min",7064,535817
+"Trip distance not in [0.1, 100] mi",3122,532695
+Invalid fare / total / tip / toll,6482,526213
+"Passenger count not in [1, 6]",6167,520046
+Payment type not in 1-4,0,520046
+Implausible speed (> 80 mph),17,520029
