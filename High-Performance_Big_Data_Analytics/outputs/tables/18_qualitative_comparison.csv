@@ -1,0 +1,7 @@
+approach,complexity,readability,best_for
+Base R aggregate(),Low,High,"Small data, quick scripts"
+lapply()/sapply(),Medium,Medium,Per-group custom logic
+purrr::map(),Medium,High,Pipelines / typed outputs
+apply() (row-wise),Medium,Medium,Small matrices; avoid on big data
+Vectorized base R,Low-Medium,Medium-High,Element-wise math on columns
+data.table,Low,High (once DT syntax known),Large grouped/joined data

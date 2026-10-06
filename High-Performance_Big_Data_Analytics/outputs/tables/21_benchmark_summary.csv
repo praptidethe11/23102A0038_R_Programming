@@ -1,0 +1,15 @@
+task,rows,approach,median_s,mem_MB,relative_to_fastest
+Op1: grouped mean by hour (full data),520029,base_aggregate,0.2472,102.1,5.2
+Op1: grouped mean by hour (full data),520029,lapply,0.0967,112.4,2
+Op1: grouped mean by hour (full data),520029,purrr_map,0.0985,112.4,2.1
+Op1: grouped mean by hour (full data),520029,vectorized_rowsum,0.0575,35.4,1.2
+Op1: grouped mean by hour (full data),520029,data.table,0.0479,16,1
+Op2: row-wise fare per mile (100k rows),100000,apply,1.0505,10.1,2949.1
+Op2: row-wise fare per mile (100k rows),100000,lapply,0.8158,1.6,2290.3
+Op2: row-wise fare per mile (100k rows),100000,purrr_map2,0.352,0.8,988.2
+Op2: row-wise fare per mile (100k rows),100000,vectorized,4e-04,0.8,1
+Op2: row-wise fare per mile (100k rows),100000,data.table,0.0062,1.7,17.5
+Month-wise bootstrap (6 partitions),520029,sequential (foreach %do%),10.74,,3.1
+Month-wise bootstrap (6 partitions),520029,"parallel (foreach %dopar%, 2 cores)",7.32,,2.1
+Month-wise bootstrap (6 partitions),520029,"parallel (foreach %dopar%, 4 cores)",5.39,,1.5
+Month-wise bootstrap (6 partitions),520029,"parallel (foreach %dopar%, 7 cores)",3.48,,1
